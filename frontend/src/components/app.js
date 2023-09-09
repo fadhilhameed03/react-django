@@ -7,9 +7,9 @@ export default class App extends Component {
     }
 
     render() {
-        return <h1 > Testing React code < /h1>;
+        return <h1> Testing React code </h1>;
     }
 }
 
 const appDiv = document.getElementById("app");
-render( < App / > , appDiv);
+render( <App / > , appDiv);
