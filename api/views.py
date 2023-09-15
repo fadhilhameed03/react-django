@@ -34,3 +34,4 @@ class CreateRoomView(APIView):
                 room.save()
             
             return Response(RoomSerializer(room).data,status=status)
+        
