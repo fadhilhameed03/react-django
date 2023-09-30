@@ -30,6 +30,9 @@ export default class CreateRoomPage extends Component {
                             <dev align = 'centre'>
                                 Guest Control of Playback state
                             </dev>
+                            <RadioGroup row defaultValue='true'>
+                                <FormLabelControl value ="true" control={<Radio Color = "primary"/>}></FormLabelControl>
+                            </RadioGroup>
                         </FormHelperText>
                     </FormControl>
                 </Grid>
